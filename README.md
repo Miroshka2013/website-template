@@ -1,7 +1,7 @@
-# Qovix Service F.Z.E - Professional Website
+# Magellan Metrics Private Limited - Professional Website
 
 ## 🌐 Website Overview
-Premium, enterprise-grade website for Qovix Service F.Z.E, a leading telecommunications and marketing services company based in Ajman Free Zone, UAE.
+Premium, enterprise-grade website for Magellan Metrics Private Limited, a leading remote recruitment services provider specializing in customer service, sales, and IT talent for local and international companies.
 
 ## ✨ Key Features
 
@@ -24,8 +24,11 @@ Premium, enterprise-grade website for Qovix Service F.Z.E, a leading telecommuni
 
 ### Sections
 1. **Hero Section** - Full-screen with background image, stats, and CTAs
-2. **Trust Badges** - Certifications and credibility indicators
-3. **Services** - 6 service cards with images and detailed features
+2. **Trust Badges** - Credibility indicators and quality assurance
+3. **Services** - 3 service cards with images and detailed features
+   - Customer Service Professionals
+   - Sales & Business Development
+   - IT & Technical Talent
 4. **About Us** - Image grid with company story and features
 5. **Why Choose Us** - 4 key advantages with professional styling
 6. **Contact** - Full-width image background with glass-effect form
@@ -34,7 +37,10 @@ Premium, enterprise-grade website for Qovix Service F.Z.E, a leading telecommuni
 ## 📁 Project Structure
 ```
 Website/
-├── index.html          # Main HTML file with professional structure
+├── index.html          # Homepage
+├── services.html       # Services page
+├── about.html          # About page
+├── contact.html        # Contact page
 ├── styles.css          # Premium CSS with modern effects
 ├── script.js           # Enhanced JavaScript with animations
 └── README.md          # This file
@@ -50,10 +56,10 @@ Website/
 
 ### Professional Images Used
 All images are high-quality from Unsplash:
-- Hero: Business team collaboration
-- Services: Industry-specific imagery for each service
-- About: Office, team meetings, modern technology
-- Contact: Dubai/UAE skyline
+- Hero: Remote team collaboration
+- Services: Customer service, sales, IT professionals
+- About: Team collaboration, professionals, remote work
+- Contact: Sri Lanka landscape
 
 ### Modern Effects
 - Glass morphism (frosted glass) design
@@ -63,6 +69,21 @@ All images are high-quality from Unsplash:
 - Counter animations for statistics
 - Parallax scrolling
 - Backdrop blur effects
+
+## 🏢 Company Information
+
+**Magellan Metrics Private Limited**
+- **Company ID**: PV00346753
+- **Director**: Pallege Gayan Nanayakkara
+- **Location**: No 192/10, Paramount Towers, Level 04, 09th Level, Nawala, 10250, Sri Lanka
+- **Website**: www.magellanmetrics.com
+- **Email**: info@magellanmetrics.com
+
+**Services Offered**:
+- Customer Service Recruitment
+- Sales & Business Development Talent
+- IT & Technical Professionals
+- Remote Staffing Solutions
 
 ## 🚀 Deployment Options
 
@@ -113,11 +134,11 @@ All images are high-quality from Unsplash:
 
 2. **Create Repository**
    - Click "New Repository"
-   - Name it: `qovix-website`
+   - Name it: `magellan-metrics-website`
    - Make it public
 
 3. **Upload Files**
-   - Upload `index.html`, `styles.css`, `script.js`
+   - Upload `index.html`, `services.html`, `about.html`, `contact.html`, `styles.css`, `script.js`
    - Or use GitHub Desktop/Git commands
 
 4. **Enable GitHub Pages**
@@ -125,7 +146,7 @@ All images are high-quality from Unsplash:
    - Scroll to "Pages" section
    - Source: Select "main" branch
    - Save and wait 2-3 minutes
-   - Live at: `https://yourusername.github.io/qovix-website`
+   - Live at: `https://yourusername.github.io/magellan-metrics-website`
 
 ### Option 4: Traditional Web Hosting
 
@@ -141,11 +162,11 @@ For hosting providers like GoDaddy, Bluehost, HostGator, etc.:
    - Go to `public_html` directory
 
 3. **Upload Files**
-   - Upload `index.html`, `styles.css`, `script.js`
+   - Upload all HTML files (`index.html`, `services.html`, `about.html`, `contact.html`), `styles.css`, `script.js`
    - Ensure `index.html` is in the root of `public_html`
 
 4. **Test**
-   - Visit your domain
+   - Visit your domain (e.g., magellanmetrics.com)
    - Website should be live
 
 ## 📧 Contact Form Setup
@@ -153,9 +174,9 @@ For hosting providers like GoDaddy, Bluehost, HostGator, etc.:
 The contact form currently shows a success message locally. To make it functional:
 
 ### Option A: FormSubmit (Free, No Backend)
-1. Replace form action in `index.html`:
+1. Replace form action in contact forms:
 ```html
-<form id="contactForm" action="https://formsubmit.co/your@email.com" method="POST">
+<form id="contactForm" action="https://formsubmit.co/info@magellanmetrics.com" method="POST">
 ```
 
 ### Option B: Formspree (Free Tier Available)
@@ -179,27 +200,27 @@ Edit the CSS variables in `styles.css`:
 ```
 
 ### Update Contact Information
-Edit the contact details in `index.html`:
-- Phone number (search for `+971 XX XXX XXXX`)
-- Email (search for `info@qovix.ae`)
+Edit the contact details in HTML files:
+- Email (search for `info@magellanmetrics.com`)
+- Company address in Nawala, Sri Lanka
 
 ### Add Logo
 1. Save your logo as `logo.png` in the Website folder
-2. Update the logo section in `index.html`:
+2. Update the logo section in HTML files:
 ```html
 <div class="logo">
-    <img src="logo.png" alt="Qovix Logo" height="50">
+    <img src="logo.png" alt="Magellan Metrics Logo" height="50">
 </div>
 ```
 
 ### Add Company Images
-Replace the placeholder in the About section with actual images.
+Replace the Unsplash placeholder images with actual company photos for a more personalized touch.
 
 ## 🔧 Testing Before Deployment
 
 ### Test Locally
 1. Open `index.html` in a web browser
-2. Test all navigation links
+2. Test all navigation links (Home, Services, About, Contact)
 3. Test the contact form
 4. Check mobile responsiveness (use browser dev tools)
 5. Test on different browsers (Chrome, Firefox, Safari, Edge)
@@ -236,9 +257,9 @@ The website is fully responsive and includes:
 
 ## 💡 Next Steps
 1. ✅ Deploy website to hosting platform
-2. Set up custom domain (qovix.ae)
-3. Configure contact form with real email
-4. Add company logo and images
+2. Set up custom domain (magellanmetrics.com)
+3. Configure contact form with real email (info@magellanmetrics.com)
+4. Add company logo and team photos
 5. Set up Google Analytics
 6. Add SSL certificate (usually automatic)
 7. Test all functionality on live site
@@ -252,17 +273,17 @@ For issues or questions about the website:
 - Test on different browsers
 
 ## 📝 License
-© 2025 Qovix Service F.Z.E. All rights reserved.
+© 2025 Magellan Metrics Private Limited. All rights reserved.
 
 ---
 
 **Deployment Checklist:**
 - [ ] Choose hosting platform
-- [ ] Upload all files (index.html, styles.css, script.js)
+- [ ] Upload all files (HTML, CSS, JS)
 - [ ] Configure custom domain (optional)
-- [ ] Set up contact form
+- [ ] Set up contact form with info@magellanmetrics.com
 - [ ] Add company logo
-- [ ] Test all pages and links
+- [ ] Test all pages and links (Home, Services, About, Contact)
 - [ ] Enable HTTPS
 - [ ] Set up analytics
 - [ ] Launch! 🚀
