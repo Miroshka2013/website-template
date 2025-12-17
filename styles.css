@@ -1399,18 +1399,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .info-card {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px);
     padding: 2rem;
     border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .info-card:hover {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 1);
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
 .info-icon {
@@ -1429,25 +1430,25 @@ h1, h2, h3, h4, h5, h6 {
 .info-content h3 {
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
-    color: var(--white);
+    color: var(--text-dark);
     font-weight: 600;
 }
 
 .info-content p {
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--text-dark);
     line-height: 1.8;
     font-size: 0.95rem;
 }
 
 .info-content a {
-    color: var(--white);
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .info-content a:hover {
-    color: var(--accent-color);
+    color: var(--secondary-color);
 }
 
 .makani,
