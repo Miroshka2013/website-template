@@ -1,0 +1,9 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- M shape mountains -->
+  <path d="M150 250 L200 350 L250 250 L350 400 L450 200 L500 350" stroke="#2563EB" stroke-width="80" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M150 250 L200 350 L250 250 L350 400" fill="#3B82F6" opacity="0.8"/>
+  <path d="M250 250 L350 400 L450 200 L500 350" fill="#1D4ED8" opacity="0.9"/>
+  
+  <!-- Sun/Circle -->
+  <circle cx="380" cy="180" r="35" fill="#60A5FA"/>
+</svg>
